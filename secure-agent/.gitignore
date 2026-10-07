@@ -1,0 +1,16 @@
+# Maven build
+target/
+*.jar
+
+# SecureAgent deployment secrets
+deploy/secure-agent.env.ps1
+
+# IDE
+.classpath
+.project
+.settings/
+
+# Logs
+*.log
+logs/
+deploy/logs/
